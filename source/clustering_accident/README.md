@@ -1,0 +1,6 @@
+**Segmentation (clustering) des accidents par profil** :
+- *Objectif* : Regrouper les accidents en clusters homogènes selon leurs attributs (météo, type de route, heure, gravité, etc.). Cela fait ressortir des typologies d’accidents (ex. « accidents nocturnes sous pluie » vs « accidents de jour en centre-ville »).
+- *Tâche ML* : Apprentissage non supervisé (algorithmes de clustering comme k-modes sur variables catégorielles, ou DBSCAN pour clusters géographiques).
+- *Visualisations/KPIs* : Diagrammes montrant la répartition des variables clés par cluster, cartes superposées par cluster, histogrammes par cluster.
+- *Complexité* : Moyenne (nécessite de choisir un nombre de clusters ou un ε dans DBSCAN, et d’interpréter les clusters).
+- *Pertinence* : Aide à cibler des campagnes de prévention adaptées à chaque profil d’accident. Par exemple, [8] illustre l’usage du clustering pour regrouper des accidents graves proches géographiquement, exploitable ici pour définir des classes d’accidents comparables
