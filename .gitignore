@@ -1,3 +1,5 @@
 .env/
+
+**.parquet/
 **.csv
 **.sh
